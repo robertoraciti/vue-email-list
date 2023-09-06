@@ -37,8 +37,9 @@
   </head>
   <body>
     <div id="app" class="container mt-5">
+      <h1>Lista Email</h1>
       <ul>
-        <li>{{ email }}</li>
+        <li v-for="email in emails">{{ email }}</li>
       </ul>
     </div>
   </body>
