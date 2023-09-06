@@ -38,7 +38,7 @@
   <body>
     <div id="app" class="container mt-5">
       <h1>Lista Email</h1>
-      <ul>
+      <ul v-if="emails.length == 10">
         <li v-for="email in emails">{{ email }}</li>
       </ul>
     </div>
